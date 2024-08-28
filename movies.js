@@ -7,7 +7,7 @@ const movieData = [
       description: "Stree 2 is a thrilling horror-comedy that continues the tale of the mysterious woman who haunts a small town.",
       videoUrl: "https://drive.google.com/file/d/19u9AXaZmTypQ_nuvHH-91JXyf04ia3vT/preview",
       imdbRating: "7.5",
-      cast: "Actor 1, Actress 1"
+      cast: "Actor abc, Actress 1"
     },
     {
       title: "Movie 2",
