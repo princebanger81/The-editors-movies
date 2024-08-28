@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Details</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <h1>Movie Details</h1>
+        <a href="index.html">Back to Home</a>
+    </header>
+
+    <!-- Movie Details Section -->
+    <div class="container">
+        <div class="movie-details">
+            <h2 id="movie-title"></h2>
+            <p id="movie-release-date"></p>
+            <p id="movie-director"></p>
+            <p id="movie-imdb-rating"></p>
+            <p id="movie-cast"></p>
+            <p id="movie-description"></p>
+            <iframe id="movie-video" src="" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        </div>
+    </div>
+
+    <!-- JavaScript Files -->
+  <script>
+      function getQueryParams() {
+        const params = new URLSearchParams(window.location.search);
+        return {
+          title: params.get('title'),
+          video: params.get('video'),
+          releaseDate: params.get('releaseDate'),
+          rating: params.get('rating'),
+          cast: params.get('cast'),
+          description: params.get('description')
+        };
+      }
+    
+      function displayMovieDetails(movie) {
+        document.getElementById('movie-title').textContent = movie.title;
+        document.getElementById('movie-release-date').textContent = `Release Date: ${movie.releaseDate}`;
+        document.getElementById('movie-director').textContent = `Director: ${movie.director}`;
+        document.getElementById('movie-imdb-rating').textContent = `IMDb Rating: ${movie.rating}`;
+        document.getElementById('movie-cast').textContent = `Cast: ${movie.cast}`;
+        document.getElementById('movie-description').textContent = movie.description;
+        document.getElementById('movie-video').src = movie.video;
+      }
+    
+      const movieParams = getQueryParams();
+      displayMovieDetails(movieParams);
+  </script>
+</body>
+</html>

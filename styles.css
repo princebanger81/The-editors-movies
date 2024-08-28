@@ -1,0 +1,159 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #121212;
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+}
+
+/* Container for the main content */
+.container {
+    width: 90%;
+    margin: auto;
+    overflow: hidden;
+}
+
+/* Header Styles */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+
+/* Search Bar Styles */
+#search-bar {
+    width: 30%;
+    padding: 10px;
+    border: 1px solid #555;
+    border-radius: 5px;
+    background-color: #333;
+    color: #fff;
+}
+
+/* Movie Grid Styles */
+#movie-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 movies per row */
+    gap: 15px;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Individual Movie Item Styles */
+.movie-item {
+    background: #333;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    transition: transform 0.2s;
+    cursor: pointer;
+    position: relative;
+}
+
+.movie-item img {
+    width: 100%;
+    height: 160px;
+    object-fit: cover;
+}
+
+.movie-info {
+    padding: 10px;
+    text-align: center;
+}
+
+.movie-info h3 {
+    margin: 0;
+    font-size: 14px;
+    color: #fff;
+}
+
+.movie-item:hover {
+    transform: scale(1.05);
+}
+
+/* Modal Styles */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.9);
+}
+
+.modal-content {
+    background-color: #333;
+    margin: 10% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    display: flex;
+    gap: 20px;
+}
+
+.modal-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.modal-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.modal-info h2, .modal-info p {
+    margin: 10px 0;
+}
+
+#movie-video {
+    margin-top: 20px;
+    width: 100%;
+    max-width: 640px;
+    height: 480px;
+}
+
+.close {
+    position: absolute;
+    top: 10px;
+    right: 25px;
+    color: #fff;
+    font-size: 35px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.close:hover,
+.close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* Movie Details Page Styles */
+.movie-details {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.movie-details img {
+    width: 100%;
+    max-width: 200px;
+    margin: 20px 0;
+}
+
+.movie-details h1 {
+    font-size: 24px;
+}
+
+.movie-details h3, .movie-details p {
+    font-size: 18px;
+}

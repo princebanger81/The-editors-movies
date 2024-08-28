@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Editor Movies</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <h1><p style="color: springgreen; font: bold;">
+          THE EDITOR MOVIES
+        </p></h1>
+    </header>
+    <header>
+        <input type="text" id="search-bar" placeholder="Search for a movie...">
+    </header>
+
+    <!-- Movie Grid Section -->
+    <div class="container">
+        <div id="movie-grid"></div>
+    </div>
+
+    <!-- JavaScript Files -->
+    <script src="movies.js"></script>  <!-- Ensure this script is properly loaded -->
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const movieGrid = document.getElementById('movie-grid');
+            const searchBar = document.getElementById('search-bar');
+
+            function displayMovies(movies) {
+                movieGrid.innerHTML = '';
+                movies.forEach((movie, index) => {
+                    const movieItem = document.createElement('div');
+                    movieItem.classList.add('movie-item');
+
+                    const movieImage = document.createElement('img');
+                    movieImage.src = movie.imageUrl;
+                    movieImage.alt = movie.title;
+
+                    const movieInfo = document.createElement('div');
+                    movieInfo.classList.add('movie-info');
+
+                    const movieTitle = document.createElement('h3');
+                    movieTitle.textContent = movie.title;
+
+                    // When a movie item is clicked, redirect to the movie details page
+                    movieItem.addEventListener('click', () => {
+                        window.location.href = `movie-details.html?title=${encodeURIComponent(movie.title)}&video=${encodeURIComponent(movie.videoUrl)}&releaseDate=${encodeURIComponent(movie.releaseDate)}&rating=${encodeURIComponent(movie.imdbRating)}&cast=${encodeURIComponent(movie.cast)}&description=${encodeURIComponent(movie.description)}`;
+                    });
+
+                    movieInfo.appendChild(movieTitle);
+                    movieItem.appendChild(movieImage);
+                    movieItem.appendChild(movieInfo);
+                    movieGrid.appendChild(movieItem);
+                });
+            }
+
+            // Initial movie display
+            displayMovies(movieData);
+
+            // Search functionality
+            searchBar.addEventListener('input', () => {
+                const searchQuery = searchBar.value.toLowerCase();
+                const filteredMovies = movieData.filter(movie => movie.title.toLowerCase().includes(searchQuery));
+                displayMovies(filteredMovies);
+            });
+        });
+    </script>
+</body>
+</html>
