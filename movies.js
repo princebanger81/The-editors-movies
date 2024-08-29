@@ -25,10 +25,10 @@ Ajay Pal as postman
 Mustaqueem Khan as Durga
 Badriprasad Chavan as Lokesh
 Vipasha Arvind as Anju Bhabhi
-Tamannaah Bhatia as Shama (special appearance)[8]
-Varun Dhawan as Bhaskar / Bhediya, reprises his role from Bhediya (special appearance)[9]
-Akshay Kumar as Sarkata's descendant (special appearance)[10]
-Amar Kaushik (cameo in the song "Aaj Ki Raat")[8]"
+Tamannaah Bhatia as Shama
+Varun Dhawan as Bhaskar / Bhediya, reprises his role from Bhediya
+Akshay Kumar as Sarkata's descendant
+Amar Kaushik"
     },
     {
       title: "Movie 2",
