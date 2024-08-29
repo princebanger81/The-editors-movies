@@ -1,13 +1,34 @@
 const movieData = [
     {
-      title: "Stree 2",
+      title: "Stree 2: Sarkate Ka Aatank",
       director: "Amar Kaushik",
-      releaseDate: "2024-09-01",
+      releaseDate: "2024-08-15",
       imageUrl: "https://yt3.ggpht.com/8XcumKLrdgS9aqZYgHidzqcstVg5PZBkQotsldvX8EkYfwkibD0w1Y4CeLD_26KNUA9nQwnLKOXjSg=s840-rw-nd-v1",
-      description: "Stree 2 is a thrilling horror-comedy that continues the tale of the mysterious woman who haunts a small town.",
+      description: "Stree 2 is the highly anticipated sequel to the 2018 horror-comedy Stree. The film continues the eerie yet humorous journey in the small town of Chanderi, where the legend of the ghostly woman, Stree, continues to haunt the residents. This time, the mystery deepens as the characters face new supernatural challenges, leading to a thrilling and unpredictable storyline. With a mix of spine-chilling horror, witty comedy, and social commentary, Stree 2 promises to keep audiences on the edge of their seats while delivering a strong message wrapped in humor and horror. The movie features returning stars Rajkummar Rao and Shraddha Kapoor, along with new faces that add fresh dynamics to the narrative. Directed by Amar Kaushik, Stree 2 is a must-watch for fans of the genre who enjoyed the unique blend of scares and laughs in the original film.",
       videoUrl: "https://drive.google.com/file/d/19u9AXaZmTypQ_nuvHH-91JXyf04ia3vT/preview",
-      imdbRating: "7.5",
-      cast: "Actor abc, Actress 1"
+      imdbRating: "7.8",
+      cast: "Rajkummar Rao as Vicky
+Shraddha Kapoor as She, Stree's daughter
+Pankaj Tripathi as Rudra
+Abhishek Banerjee as Jana, Vicky's friend
+Aparshakti Khurana as Bittu, Vicky’s friend
+Atul Srivastava as Vicky's father
+Mushtaq Khan as MLA
+Sunita Rajwar as Jana's mother
+Anya Singh as Chitti
+Arvind Bilgaiyan as Jana's father
+Bhoomi Rajgor as Stree
+Sunil Kumar as Sarkata
+Aakash Dabhade as Narendra, Jana's friend
+Simran Sharma as Mamata, Narendra's wife
+Ajay Pal as postman
+Mustaqueem Khan as Durga
+Badriprasad Chavan as Lokesh
+Vipasha Arvind as Anju Bhabhi
+Tamannaah Bhatia as Shama (special appearance)[8]
+Varun Dhawan as Bhaskar / Bhediya, reprises his role from Bhediya (special appearance)[9]
+Akshay Kumar as Sarkata's descendant (special appearance)[10]
+Amar Kaushik (cameo in the song "Aaj Ki Raat")[8]"
     },
     {
       title: "Movie 2",
