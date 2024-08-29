@@ -35,7 +35,7 @@ const movieData = [
       releaseDate: "2024-08-15",
       imageUrl: "https://yt3.ggpht.com/jWVYD_nKzOdTImusckcd9VW21HLRxjaiCDy5tNoVYlIqO99FZQM5SvNGYc7HS1JkzMBGISvcRPPqSg=s1140-rw-nd-v1",
       description: "Description for Movie 4.",
-      videoUrl: "https://drive.google.com/file/d/19u9AXaZmTypQ_nuvHH-91JXyf04ia3vT/preview",
+      videoUrl: "https://drive.google.com/file/d/10V9txhzTJZ6rQEh4ZCwgQ9wwlMwwoI1U/preview",
       imdbRating: "8.0",
       cast: "Actor 4, Actress 4"
     },
