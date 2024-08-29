@@ -7,28 +7,7 @@ const movieData = [
       description: "Stree 2 is the highly anticipated sequel to the 2018 horror-comedy Stree. The film continues the eerie yet humorous journey in the small town of Chanderi, where the legend of the ghostly woman, Stree, continues to haunt the residents. This time, the mystery deepens as the characters face new supernatural challenges, leading to a thrilling and unpredictable storyline. With a mix of spine-chilling horror, witty comedy, and social commentary, Stree 2 promises to keep audiences on the edge of their seats while delivering a strong message wrapped in humor and horror. The movie features returning stars Rajkummar Rao and Shraddha Kapoor, along with new faces that add fresh dynamics to the narrative. Directed by Amar Kaushik, Stree 2 is a must-watch for fans of the genre who enjoyed the unique blend of scares and laughs in the original film.",
       videoUrl: "https://drive.google.com/file/d/19u9AXaZmTypQ_nuvHH-91JXyf04ia3vT/preview",
       imdbRating: "7.8",
-      cast: "Rajkummar Rao as Vicky
-Shraddha Kapoor as She, Stree's daughter
-Pankaj Tripathi as Rudra
-Abhishek Banerjee as Jana, Vicky's friend
-Aparshakti Khurana as Bittu, Vicky’s friend
-Atul Srivastava as Vicky's father
-Mushtaq Khan as MLA
-Sunita Rajwar as Jana's mother
-Anya Singh as Chitti
-Arvind Bilgaiyan as Jana's father
-Bhoomi Rajgor as Stree
-Sunil Kumar as Sarkata
-Aakash Dabhade as Narendra, Jana's friend
-Simran Sharma as Mamata, Narendra's wife
-Ajay Pal as postman
-Mustaqueem Khan as Durga
-Badriprasad Chavan as Lokesh
-Vipasha Arvind as Anju Bhabhi
-Tamannaah Bhatia as Shama
-Varun Dhawan as Bhaskar / Bhediya, reprises his role from Bhediya
-Akshay Kumar as Sarkata's descendant
-Amar Kaushik"
+      cast: "Rajkummar Rao"
     },
     {
       title: "Movie 2",
